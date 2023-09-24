@@ -1,5 +1,5 @@
 # Hall Effect XY Mount
-![Image of Hall Effect magnet mount](Hall_Effect_XY_Mount/Hall_Effect_XY_Mount.png)
+![Image of Hall Effect magnet mount](/Hall_Effect_XY_Mount.png)
 
 I designed a new magnet mount for the CNC tap which places the magnet in the same location as the stock Srealthburner X Carriage. 
 
