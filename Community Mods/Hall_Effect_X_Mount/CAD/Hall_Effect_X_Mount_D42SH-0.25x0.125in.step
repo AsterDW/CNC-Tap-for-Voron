@@ -9,8 +9,8 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'Hall_Effect_XY_Mount_D42SH-0.25x0.125in.step',
-/* time_stamp */ '2023-09-24T15:12:49-05:00',
+/* name */ 'Hall_Effect_X_Mount_D42SH-0.25x0.125in.step',
+/* time_stamp */ '2023-09-24T20:11:10-05:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
@@ -26,7 +26,7 @@ DATA;
 #11=SHAPE_REPRESENTATION_RELATIONSHIP('SRR','None',#5813,#12);
 #12=ADVANCED_BREP_SHAPE_REPRESENTATION('',(#14),#5805);
 #13=STYLED_ITEM('',(#5823),#14);
-#14=MANIFOLD_SOLID_BREP('Hall_Effect_XY_Mount',#2276);
+#14=MANIFOLD_SOLID_BREP('Hall_Effect_X_Mount',#2276);
 #15=(
 BOUNDED_SURFACE()
 B_SPLINE_SURFACE(1,2,((#5463,#5464,#5465),(#5466,#5467,#5468)),
@@ -6242,17 +6242,17 @@ SOLID_ANGLE_UNIT()
 #5812=PRODUCT_DEFINITION_SHAPE('',$,#5815);
 #5813=SHAPE_REPRESENTATION('',(#2289),#5805);
 #5814=PRODUCT_DEFINITION_CONTEXT('part definition',#5819,'design');
-#5815=PRODUCT_DEFINITION('Hall_Effect_XY_Mount','Hall_Effect_XY_Mount',
-#5816,#5814);
+#5815=PRODUCT_DEFINITION('Hall_Effect_X_Mount','Hall_Effect_X_Mount',#5816,
+#5814);
 #5816=PRODUCT_DEFINITION_FORMATION('',$,#5821);
-#5817=PRODUCT_RELATED_PRODUCT_CATEGORY('Hall_Effect_XY_Mount',
-'Hall_Effect_XY_Mount',(#5821));
+#5817=PRODUCT_RELATED_PRODUCT_CATEGORY('Hall_Effect_X_Mount',
+'Hall_Effect_X_Mount',(#5821));
 #5818=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#5819);
 #5819=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #5820=PRODUCT_CONTEXT('part definition',#5819,'mechanical');
-#5821=PRODUCT('Hall_Effect_XY_Mount','Hall_Effect_XY_Mount',$,(#5820));
+#5821=PRODUCT('Hall_Effect_X_Mount','Hall_Effect_X_Mount',$,(#5820));
 #5822=PRESENTATION_STYLE_ASSIGNMENT((#5824));
 #5823=PRESENTATION_STYLE_ASSIGNMENT((#5825));
 #5824=SURFACE_STYLE_USAGE(.BOTH.,#5826);

@@ -1,5 +1,5 @@
-# Hall Effect XY Mount
-![Image of Hall Effect magnet mount](./Hall_Effect_XY_Mount.png)
+# Hall Effect X Mount
+![Image of Hall Effect magnet mount](./Hall_Effect_X_Mount.png)
 
 I designed a new magnet mount for the CNC tap which places the magnet in the same location as the stock Srealthburner X Carriage. 
 
@@ -15,18 +15,18 @@ I also wanted a mount that clipped into place and then uses the original include
 For my project I chose to use high temperature SH rated magnets. I could only find these in 1/4" x 1/8" size instead of the standard 6mm x 3mm metic size. While close these magnets are really 6.35mm x 3.2mm
 
 The STL folder contains two .3mf files depending on the magnet being used.
-- Hall_Effect_XY_Mount_6x3mm.3mf
+- Hall_Effect_X_Mount_6x3mm.3mf
 
   For use with the Voron BOM 6x3 mm magnets
   
-- Hall_Effect_XY_Mount_D42SH-0.25x0.125in.3mf
+- Hall_Effect_X_Mount_D42SH-0.25x0.125in.3mf
 
   For use with the D42SH or any 1/4" x 1/8" magnet.
 
 ## CAD
 Included in the CAD folder are step files for both magnet types.
-- Hall_Effect_XY_Mount_6x3mm.step
-- Hall_Effect_XY_Mount_D42SH-0.25x0.125in.step
+- Hall_Effect_X_Mount_6x3mm.step
+- Hall_Effect_X_Mount_D42SH-0.25x0.125in.step
 
 I have also included the Fusion 360 project which uses parameters to define a custom magnet size for use in the mount.
 The magnet measurements can be entered in the MagnetDiameter and MagnetThickness parameters to update the component body magnet hole dimensions.
